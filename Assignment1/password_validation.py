@@ -13,8 +13,8 @@ def validate_password(password):
                 digitcount = digitcount + 1
                 # consecutive digits check can not be done for last charecter so check index value
                 if i != len(password) - 1 and password[i + 1].isdigit():
-                    first = int(char) + 1
-                    second = password[i + 1]
+                    # first = int(char) + 1 Harritha12
+                    # second = password[i + 1]
                     # check for any two consecutive digits
                     if int(char) + 1 == int(password[i + 1]):
                         haveconsdigit = True
